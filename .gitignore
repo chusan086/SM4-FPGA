@@ -1,0 +1,17 @@
+# Vivado generated
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.runs/
+*.sim/
+ip_user_files/
+
+# Vivado logs
+*.jou
+*.log
+vivado*.backup.*
+
+# OS
+Thumbs.db
+.DS_Store
