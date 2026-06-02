@@ -2,7 +2,7 @@
 
 **FPGA implementation of SM4 block cipher (GB/T 32907)**
 
-> SM4 is the Chinese national standard for block cipher, supporting 128-bit keys and 128-bit block size. This project implements SM4 with AXI interface for Zynq PS-PL integration.
+> SM4 is the Chinese national standard for block cipher, supporting 128-bit keys and 128-bit block size.
 
 ## Target Board
 
@@ -40,3 +40,20 @@ SM4-FPGA/
 - [ ] Full AXI DMA integration
 - [ ] Performance optimization
 - [ ] Top-level simulation testbench
+
+---
+
+中文说明
+
+## 目标平台
+
+| 开发板 | 芯片 |
+|--------|------|
+| RK-ZYNQ7100-F | XC7Z100-FFG900-2 |
+
+### 当前进度
+
+- [x] SM4 加解密核心
+- [x] SM4 密钥扩展
+- [x] SM4 S盒
+- [x] AXI 总线接口
